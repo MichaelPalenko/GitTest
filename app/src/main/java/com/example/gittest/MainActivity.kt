@@ -11,6 +11,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             GitTestTheme {
                 val cat = Kitty()
+                val dog = Dog()
             }
         }
     }
